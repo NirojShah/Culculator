@@ -1,0 +1,85 @@
+
+var datas = "";
+
+document.getElementById("C").addEventListener("click",function(){
+    document.getElementById("display").value="";
+    datas = ""
+})
+
+document.getElementById("/").addEventListener("click",function(){
+    datas+=document.getElementById("/").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("X").addEventListener("click",function(){
+    datas+=document.getElementById("X").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("+").addEventListener("click",function(){
+    datas+=document.getElementById("+").value
+    document.getElementById("display").value=datas
+})
+
+document.getElementById("1").addEventListener("click",function(){
+    datas+=document.getElementById("1").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("2").addEventListener("click",function(){
+    datas+=document.getElementById("2").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("3").addEventListener("click",function(){
+    datas+=document.getElementById("3").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("-").addEventListener("click",function(){
+    datas+=document.getElementById("-").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("4").addEventListener("click",function(){
+    datas+=document.getElementById("4").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("5").addEventListener("click",function(){
+    datas+=document.getElementById("5").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("6").addEventListener("click",function(){
+    datas+=document.getElementById("6").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("**").addEventListener("click",function(){
+    datas+=document.getElementById("**").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("7").addEventListener("click",function(){
+    datas+=document.getElementById("7").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("8").addEventListener("click",function(){
+    datas+=document.getElementById("8").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("9").addEventListener("click",function(){
+    datas+=document.getElementById("9").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("tt").addEventListener("click",function(){
+    datas+=document.getElementById("tt").value
+    document.getElementById("display").value=datas
+})
+document.getElementById(".").addEventListener("click",function(){
+    datas+=document.getElementById(".").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("0").addEventListener("click",function(){
+    datas+=document.getElementById("0").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("%").addEventListener("click",function(){
+    datas+=document.getElementById("%").value
+    document.getElementById("display").value=datas
+})
+document.getElementById("equal").addEventListener("click",function(){
+    document.getElementById("display").value=eval(datas);
+    datas ="0"
+})

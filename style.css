@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 25%;
+    height: auto;
+    background-color: black;
+    margin: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 10px;
+}
+
+#display{
+    width: 85%;
+    height: 55px;
+    background-color: white;
+    cursor: not-allowed;
+    border-radius: 10px;
+    border: 2px solid black;
+    align-self: center;
+    color: black;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.first{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.second{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.third{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.fourth{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.fifth{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: black;
+    margin: 8px;
+    width: 58px;
+    height: 61px;
+    border-radius: 65px;
+    cursor: pointer;
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: cursive;
+    border: 2px solid green;
+}
+button:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 15px green;
+}
+
+button:focus{
+    outline: none;
+    border-color: green;
+    box-shadow: 0 0 15px green;
+}
+
+
+@media only screen 
+and (max-width: 810px)
+and (min-width:460px) {
+    .container{
+        width: 40%;
+    }
+    button{
+        border: 2px solid blue;
+        color: blue;
+        background-color: black;
+    }
+
+    button:focus{
+        outline: none;
+        border-color: blue;
+        box-shadow: 0 0 15px blue;
+    }
+    #display{
+        font-size: 24px;
+        width: 257px;
+    }
+    button:hover{
+        transition: 0.2s;
+        box-shadow: 0 0 15px blue;
+    }
+    
+}
+
+@media only screen 
+and (max-width:459px)
+and (min-width:300px) {
+    .container{
+        background-color: black;
+        width: 67%;
+        height: auto;
+
+    }
+    #display{
+        width: 85%;
+        height: 55px;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    button{
+        width: 50px;
+        height: 54px;
+        border: 2px solid red;
+        color: red;
+    }
+
+    button:focus{
+        outline: none;
+        border-color: red;
+        box-shadow: 0 0 15px red;
+    }
+    button:hover{
+        transition: 0.2s;
+        box-shadow: 0 0 15px red;
+    }
+}
+
+
+
